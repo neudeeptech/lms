@@ -3,6 +3,6 @@ Redmine::Plugin.register :lms do
   author 'College Of Engineer ,Ambajogai'
   description 'This is a leave management system plugin for redmine '
   version '0.0.1'
-  url 'http://example.com/path/to/plugin'
+  url 'https://github.com/neudeeptech/lms.git'
   author_url 'http://example.com/about'
 end
