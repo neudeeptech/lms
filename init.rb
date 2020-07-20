@@ -1,6 +1,6 @@
 Redmine::Plugin.register :lms do
   name 'Lms plugin'
-<<<<<<< HEAD
+#<<<<<<< HEAD
   author 'College Of Engineer ,Ambajogai'
   description 'This is a leave management system plugin for redmine '
   version '0.0.1'
@@ -12,8 +12,5 @@ Redmine::Plugin.register :lms do
   end
   menu :project_menu, :LMS, { :controller => 'lms_controller', :action => 'lms_main' }, :after => :calendar, :param => :project_id
 
-  
-
-
-
+ 
 end
