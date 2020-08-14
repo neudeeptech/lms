@@ -12,5 +12,6 @@ Redmine::Plugin.register :lms do
   end
   menu :project_menu, :LMS, { :controller => 'lms_controller', :action => 'lms_main' }, :after => :calendar, :param => :project_id
 
+  settings :default => {'lms_controller' => 1000}, :partial => 'lms_controller/lms_main'
  
 end
